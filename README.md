@@ -271,20 +271,17 @@ Automatic-Power-Factor-Correction
 
 ---
 
-## 👩‍💻 Author
+## 👥 Team Members
 
-**Monikka R**
+This project was successfully developed through the collaborative efforts of:
 
-🎓 Electrical and Electronics Engineering
+- 👩‍💻 **Monikka R**
+- 👨‍💻 **Moses Anand L**
+- 👩‍💻 **Nandhini V**
+- 👨‍💻 **Praveennathan J**
+- 👨‍💻 **Badri R**
 
-⚡ Automatic Power Factor Correction (APFC) System
-
-📱 IoT-Based Energy Monitoring Project
-
----
-
-<div align="center">
-
+We sincerely thank all team members for their dedication, teamwork, and valuable contributions throughout the development of this project.
 ⭐ If you found this project useful, consider giving it a Star!
 
 </div>
