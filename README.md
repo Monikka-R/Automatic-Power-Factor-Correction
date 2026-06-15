@@ -1,27 +1,108 @@
-<p align="center">
-  <h1 align="center">⚡ Automatic Power Factor Correction (APFC) System</h1>
-</p>
+<div align="center">
+
+# ⚡ Automatic Power Factor Correction (APFC) System
+
+### Smart IoT-Based Power Factor Monitoring and Automatic Correction using ESP32
+
+📱 Real-Time Monitoring • 📈 Live Analytics • ☁️ IoT Integration • ⚡ Automatic PF Correction
+
+</div>
+
+---
+
+## 📖 Overview
+
+The **Automatic Power Factor Correction (APFC) System** is an IoT-enabled electrical monitoring and control system designed to improve power factor automatically by switching capacitor banks based on load conditions.
+
+The system continuously measures voltage, current, and power factor using sensors connected to an ESP32 controller. Real-time data is displayed locally on an OLED display and remotely through the Blynk mobile application.
+
+---
+
+## 🎯 Objectives
+
+✅ Improve Power Factor Automatically
+
+✅ Reduce Reactive Power Consumption
+
+✅ Increase Electrical System Efficiency
+
+✅ Enable Remote Monitoring Through IoT
+
+✅ Visualize Real-Time Electrical Parameters
+
+---
+
+## 🏗️ System Architecture
 
 <p align="center">
-  IoT-Based Real-Time Power Factor Monitoring and Automatic Correction
+  <img src="Images/block_diagram.jpg" width="800">
 </p>
 
 ---
 
-## About The Project
+## 🔧 Components Used
 
-The Automatic Power Factor Correction (APFC) System is designed to monitor voltage, current, and power factor in real time and automatically switch capacitor banks to improve the power factor.
-
-The system includes a mobile application that provides:
-
-- Real-time monitoring
-- Live graphical analysis
-- Historical data logging
-- Automatic power factor correction status
+| 🔹 Component | 📌 Purpose |
+|------------|------------|
+| 🖥️ ESP32 Dev Board | Main Controller |
+| ⚡ ZMPT101B Voltage Sensor | Voltage Measurement |
+| 🔌 ACS712 Current Sensor | Current Measurement |
+| 🔄 2-Channel Relay Module | Capacitor Switching |
+| 🔋 Capacitor Bank | Power Factor Correction |
+| 📟 OLED SH1106 Display | Local Display of Parameters |
+| 📱 Blynk IoT Application | Remote Monitoring |
+| 🔋 5V Power Supply | Powers ESP32 and Sensors |
+| 💡 Resistive Load | Testing Load |
+| 🌀 Inductive Load | Creates Lagging Power Factor |
 
 ---
 
-## Hardware Prototype
+## ⚙️ Working Principle
+
+1. ⚡ Voltage sensor measures AC supply voltage.
+2. 🔌 Current sensor measures load current.
+3. 🖥️ ESP32 processes sensor readings.
+4. 📈 Power factor is calculated continuously.
+5. 🔄 Relay module switches capacitor banks automatically.
+6. ⚡ Power factor is improved and maintained.
+7. 📱 Data is transmitted to the Blynk Cloud.
+8. 📊 Users can monitor live readings through the mobile application.
+
+---
+
+## ✨ Key Features
+
+### ⚡ Electrical Monitoring
+
+- Real-Time Voltage Measurement
+- Real-Time Current Measurement
+- Power Factor Calculation
+- Load Analysis
+
+### 🔄 Automatic Control
+
+- Automatic Capacitor Switching
+- Relay-Based Control
+- Improved Power Factor
+
+### 📱 Mobile Application
+
+- Secure Login System
+- Live Dashboard
+- Historical Data Storage
+- Graphical Analysis
+
+### ☁️ IoT Connectivity
+
+- Blynk Cloud Integration
+- Remote Access
+- Real-Time Data Updates
+
+---
+
+## 🛠️ Hardware Implementation
+
+### 🔌 APFC Prototype
 
 <p align="center">
   <img src="Images/apfc_circuit_1.jpg" width="700">
@@ -29,86 +110,181 @@ The system includes a mobile application that provides:
 
 ---
 
-## Hardware Components
-
-- ESP32
-- Voltage Sensor
-- Current Sensor
-- Relay Module
-- Capacitor Bank
-- Power Supply Unit
-- Mobile Application
-
----
-
-## Mobile Application
-
-### Login Screen
+### ⚙️ Complete Hardware Setup
 
 <p align="center">
-  <img src="Images/login_screen.jpg" width="250">
-</p>
-
-### Dashboard
-
-<p align="center">
-  <img src="Images/dashboard_screen.jpg" width="250">
-</p>
-
-### History Screen
-
-<p align="center">
-  <img src="Images/history_screen.jpg" width="250">
-</p>
-
-### Live Graph
-
-<p align="center">
-  <img src="Images/live_graph_screen.jpg" width="250">
+  <img src="Images/apfc_circuit_2.jpg" width="700">
 </p>
 
 ---
 
-## Working
+## ☁️ Blynk IoT Dashboard
 
-1. Voltage and current values are measured continuously.
-2. Power factor is calculated by the controller.
-3. Relay-controlled capacitor banks are switched automatically.
-4. Corrected power factor is maintained.
-5. Data is transmitted to the mobile application.
-6. Users can view live readings, graphs, and history.
+The APFC system communicates with the Blynk IoT platform for remote monitoring and data visualization.
 
----
+<p align="center">
+  <img src="Images/blynk_app.jpg" width="300">
+</p>
 
-## Features
+### Features
 
-✔ Real-Time Monitoring
+📱 Remote Monitoring
 
-✔ Automatic Power Factor Correction
+⚡ Live Voltage Display
 
-✔ Capacitor Bank Switching
+🔌 Live Current Display
 
-✔ Mobile Application Support
+📈 Power Factor Monitoring
 
-✔ Live Graph Visualization
+☁️ Cloud Connectivity
 
-✔ Historical Data Logging
+🕒 Data Logging
 
-✔ IoT-Based Monitoring
+🌐 Anywhere Access
 
 ---
 
-## Future Improvements
+## 📱 Mobile Application
 
-- Cloud Integration
-- Three-Phase APFC
-- AI-Based Load Prediction
-- Smart Grid Connectivity
+### 🔐 Login Screen
+
+<p align="center">
+  <img src="Images/login_screen.jpg" width="260">
+</p>
+
+Secure authentication for accessing the APFC monitoring system.
 
 ---
 
-## Author
+### 📊 Dashboard
+
+<p align="center">
+  <img src="Images/dashboard_screen.jpg" width="260">
+</p>
+
+The dashboard displays:
+
+⚡ Voltage
+
+🔌 Current
+
+📈 Power Factor
+
+🟢 System Status
+
+---
+
+### 📈 Live Graph
+
+<p align="center">
+  <img src="Images/live_graph_screen.jpg" width="260">
+</p>
+
+Real-time visualization of system parameters.
+
+---
+
+### 🕒 History Screen
+
+<p align="center">
+  <img src="Images/history_screen.jpg" width="260">
+</p>
+
+Stores historical readings with timestamps for performance analysis.
+
+---
+
+## 📊 Parameters Monitored
+
+| 📈 Parameter | Description |
+|-------------|-------------|
+| ⚡ Voltage | Supply Voltage |
+| 🔌 Current | Load Current |
+| 📈 Power Factor | PF Value |
+| 🟢 Status | System Condition |
+| 🕒 History | Stored Records |
+| 📊 Graph | Live Trends |
+
+---
+
+## 🚀 Advantages
+
+- ⚡ Improved Power Factor
+- 💰 Reduced Electricity Penalties
+- 🔋 Increased Energy Efficiency
+- 📉 Reduced Reactive Power
+- 🤖 Automatic Operation
+- 📱 Remote Monitoring
+- ☁️ IoT Enabled
+- 📊 Real-Time Analytics
+
+---
+
+## 🔮 Future Enhancements
+
+- ☁️ Cloud Database Integration
+- 🤖 AI-Based Load Prediction
+- ⚡ Three-Phase APFC System
+- 🌐 Smart Grid Integration
+- 📈 Advanced Energy Analytics
+- 📱 Enhanced Mobile Dashboard
+
+---
+
+## 📂 Repository Structure
+
+```text
+Automatic-Power-Factor-Correction
+│
+├── README.md
+│
+├── Images
+│   ├── block_diagram.jpg
+│   ├── apfc_circuit_1.jpg
+│   ├── apfc_circuit_2.jpg
+│   ├── blynk_app.jpg
+│   ├── login_screen.jpg
+│   ├── dashboard_screen.jpg
+│   ├── history_screen.jpg
+│   └── live_graph_screen.jpg
+│
+├── ESP32_Code
+│   └── APFC_Code.ino
+│
+└── Documents
+    └── Project_Report.pdf
+```
+
+---
+
+## 📚 Applications
+
+🏭 Industrial Power Systems
+
+🏢 Commercial Buildings
+
+⚡ Power Distribution Networks
+
+🏫 Educational & Research Projects
+
+🌐 IoT-Based Energy Monitoring Systems
+
+---
+
+## 👩‍💻 Author
 
 **Monikka R**
 
-Electrical and Electronics Engineering
+🎓 Electrical and Electronics Engineering
+
+⚡ Automatic Power Factor Correction (APFC) System
+
+📱 IoT-Based Energy Monitoring Project
+
+---
+
+<div align="center">
+
+⭐ If you found this project useful, consider giving it a Star!
+
+</div>
