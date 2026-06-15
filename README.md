@@ -282,6 +282,7 @@ This project was successfully developed through the collaborative efforts of:
 - 👨‍💻 **Badri R**
 
 We sincerely thank all team members for their dedication, teamwork, and valuable contributions throughout the development of this project.
+
 ⭐ If you found this project useful, consider giving it a Star!
 
 </div>
