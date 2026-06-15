@@ -239,20 +239,15 @@ Automatic-Power-Factor-Correction
 ├── README.md
 │
 ├── Images
-│   ├── block_diagram.jpg
-│   ├── apfc_circuit_1.jpg
-│   ├── apfc_circuit_2.jpg
-│   ├── blynk_app.jpg
-│   ├── login_screen.jpg
-│   ├── dashboard_screen.jpg
-│   ├── history_screen.jpg
-│   └── live_graph_screen.jpg
-│
-├── ESP32_Code
-│   └── APFC_Code.ino
-│
-└── Documents
-    └── Project_Report.pdf
+    ├── block_diagram.jpg
+    ├── apfc_circuit_1.jpg
+    ├── apfc_circuit_2.jpg
+    ├── blynk_app.jpg
+    ├── login_screen.jpg
+    ├── dashboard_screen.jpg
+    ├── history_screen.jpg
+    └── live_graph_screen.jpg
+
 ```
 
 ---
